@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.bloodbuddy.RegistrationActivity" >
+
+    <EditText
+        android:id="@+id/pwd1Reg"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/emailLogin"
+        android:layout_below="@+id/emailLogin"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/pwd2Reg"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/pwd1Reg"
+        android:layout_below="@+id/pwd1Reg"
+        android:ems="10"
+        android:hint="Repeat Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/nameReg"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/pwd2Reg"
+        android:layout_below="@+id/pwd2Reg"
+        android:ems="10"
+        android:hint="Name" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/snameReg"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/nameReg"
+        android:layout_below="@+id/nameReg"
+        android:ems="10"
+        android:hint="Surname" />
+
+    <Button
+        android:id="@+id/buttonReg"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/snameReg"
+        android:layout_centerHorizontal="true"
+        android:text="Registracija" />
+
+    <EditText
+        android:id="@+id/emailLogin"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/buttonReg"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="88dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" >
+
+        <requestFocus />
+        <requestFocus />
+
+    </EditText>
+
+</RelativeLayout>
