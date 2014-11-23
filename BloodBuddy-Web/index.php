@@ -2,6 +2,8 @@
 <head>
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="http://bootswatch.com/lumen/bootstrap.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 	<script>
@@ -40,6 +42,7 @@
 			document.getElementById("bloodid").value = variable;
 		}
 	</script>
+    <title>Blood Buddy</title>
 </head>
 <body>
 <?php
